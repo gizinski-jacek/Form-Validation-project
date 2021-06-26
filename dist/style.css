@@ -1,0 +1,58 @@
+:root {
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body * {
+	font-size: 1.2rem;
+}
+
+#content {
+	text-align: center;
+	margin: auto;
+	width: 25%;
+	display: flex;
+}
+
+form {
+	width: 100%;
+	margin-top: 50px;
+}
+
+fieldset {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+	padding: 20px;
+}
+
+input,
+label {
+	padding: 5px;
+	margin: 5px auto;
+	width: 80%;
+	border-radius: 5px;
+}
+
+input {
+	margin-bottom: 20px;
+}
+
+.submit {
+	padding: 5px 10px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+input:invalid {
+	box-shadow: 0 0 10px red;
+}
+
+input:valid {
+	box-shadow: 0 0 5px green;
+}
